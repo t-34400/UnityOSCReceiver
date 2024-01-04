@@ -20,3 +20,6 @@ Refer to the classes in `Assets/OSCReceiver/Samples/Scripts/Views` for implement
 
 ## Sample Scene
 `Assets/OSCReceiver/Samples/Scenes/VRChatSample` contains a sample scene for controlling a player and simulating Chatbox input using OSC messages.
+
+## License
+[MIT License](./LICENSE)

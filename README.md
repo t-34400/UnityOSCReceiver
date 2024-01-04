@@ -45,7 +45,7 @@ Unity Editor that can compile C#8 or later (if using an earlier version, update 
 
 ## VRChatOSC
 A sample for processing VRChat OSC input.
-Refer to [VRChatOSC_README_EN](./Samples/VRChatOSC/VRChatOSC_README.md) for usage details.
+Refer to [VRChatOSC_README](./Samples/VRChatOSC/VRChatOSC_README.md) for usage details.
 
 ## License
 [MIT License](./LICENSE)

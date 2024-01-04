@@ -43,3 +43,9 @@ C#8以降がコンパイルできるUnity Editor（それ以前のバージョ�
             - `argument.type`には，引数のデータタイプが格納される．
             - `argument.value`には，引数の値がobjectにアップキャストされて格納される．
 
+## VRChatOSC
+VRChat対応のOSC入力を処理するサンプル．
+使い方は，[VRChatOSC_README_JP](./Samples/VRChatOSC/VRChatOSC_README_JP.md)を参照すること．
+
+## ライセンス
+[MITライセンス](./LICENSE)

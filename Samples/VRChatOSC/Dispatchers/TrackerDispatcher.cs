@@ -30,8 +30,9 @@ namespace OSCReceiver.VRChatOSC
                 {
                     return;
                 }
-                
-                var idString = address.Substring(TRACKER_ADDRESS_PREFIX.Length, idEndIndex);
+
+                var idStringLength = idEndIndex - TRACKER_ADDRESS_PREFIX.Length;
+                var idString = address.Substring(TRACKER_ADDRESS_PREFIX.Length, idStringLength);
                 var command = address.Substring(idEndIndex + 1);
 
                 if (!TryGetTrackerId(idString, out int trackerId))
